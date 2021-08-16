@@ -7,4 +7,4 @@ Código del curso AR 2021 usando AR.js
 - Image Traking
 - Marker Based
 
-Organizado por [remitee.org](https://remitee.org "Red Mexicana de Investigadores en Tecnologias Emergentes para la Educación")
+Organizado por [remitee.org](http://remitee.org "Red Mexicana de Investigadores en Tecnologias Emergentes para la Educación")
