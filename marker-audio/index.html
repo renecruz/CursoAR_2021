@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <script src="./lib/aframe-master.min.js"></script>
+  <!-- we import arjs version without NFT but with marker + location based support -->
+  <script src="./lib/aframe-ar.js"></script>
+  <body style="margin: 0px; overflow: hidden;">
+    <a-scene
+      embedded
+      vr-mode-ui="enabled: false"
+      arjs="sourceType: webcam; debugUIEnabled: false;"
+    >
+      <a-entity id="river" geometry="primitive: plane" material="color: blue"
+          position="-10 0 0" sound="src: url(./audio/file.mp3); autoplay: true"></a-entity>
+      <a-assets>
+        
+      <a-marker-camera
+        preset="custom"
+        type="pattern"
+        url="./marker/remitee.patt"
+      ></a-marker-camera>
+    </a-scene>
+  </body>
+</html>
