@@ -9,9 +9,10 @@
       vr-mode-ui="enabled: false"
       arjs="sourceType: webcam; debugUIEnabled: false;"
     >
-      <a-entity id="river" geometry="primitive: plane" material="color: blue"
-          position="-10 0 0" sound="src: url(./audio/file.mp3); autoplay: true"></a-entity>
-      <a-assets>
+      <a-entity cursor position="0 0 -5"></a-entity>
+
+      <a-entity id="elmo" geometry="primitive: box" material="src: ./image/aguachile.jpg"
+                sound="src: url(./audio/file.mp3); on: click"></a-entity>
         
       <a-marker-camera
         preset="custom"
